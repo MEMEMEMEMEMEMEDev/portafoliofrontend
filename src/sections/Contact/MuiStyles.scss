@@ -1,0 +1,55 @@
+  .MuiInputLabel-root {
+    font-family: 'Lato', sans-serif !important;
+    color: white !important;
+    font-weight: 300 !important;
+    
+    @media (min-width: 2000px) {
+      font-size: 1vw !important;
+    }
+  }
+  
+  .MuiButton-root {
+    background-color: transparent !important;
+    width: 20%;
+    margin: 0 auto !important;
+  }
+  
+  .MuiInput-root::after {
+    border-bottom: 1px solid rgb(175, 175, 175) !important;
+  }
+  
+  .MuiInput-root::before {
+    border-bottom: 1px solid rgb(59, 59, 59) !important;
+
+    @media (min-width: 2000px) {
+      border-bottom: 1px solid transparent !important;
+    }
+  }
+  
+  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+    color: rgb(255, 255, 255)!important;
+
+    @media (min-width: 2000px) {
+      font-size: 1vw !important;
+    }
+  }
+  
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    color: rgb(121, 121, 121) !important;
+    @media (min-width: 2000px) {
+      font-size: 1vw !important;
+    }
+  } 
+
+  .css-1x51dt5-MuiInputBase-input-MuiInput-input, .css-68u1dt-MuiInputBase-root-MuiInput-root {
+    color: white !important;
+    font-weight: 300 !important;
+
+    @media (min-width: 2000px) {
+      font-size: 2vw !important;
+    }
+  }
+  
+  .css-11tfndm, .css-1heko1s {
+    color: rgb(255, 255, 255) !important;
+  }

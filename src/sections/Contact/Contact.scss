@@ -1,0 +1,97 @@
+.contact {
+  background-color: rgb(39, 39, 39);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+  width: 100%;
+  min-height: 600px;
+
+  @media (max-width: 870px) {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &-form {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+    h2 {
+      color: rgb(255, 255, 255);
+      font-weight: 300;
+
+      @media (max-width: 768px) {
+        font-size: 1.3rem;
+      }
+
+      @media (min-width: 2000px) {
+        font-size: 1.7vw
+      }
+      
+    }
+
+    form {
+      display: flex;
+      height: 30%;
+      flex-direction: column;
+      justify-content: space-around;
+      min-height: 400px;
+      min-width: 170px;
+      padding: 30px;
+      width: 50%;
+    }
+  }
+
+  &-image {
+    background: url('../../assets/images/jpg/contact2bw.webp');
+    background-position: center;
+    background-size: cover;    
+    height: 100%;
+    filter: brightness(50%);
+    width: 100%;
+
+    @media (max-width: 870px) {
+      display: none;
+    }
+  }
+}
+
+footer {
+  align-items: center;
+  height: 7vh;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+
+  a {
+    height: 20px;
+    width: 20px;
+    margin: 0 2% 0 2%;
+
+    @media (min-width: 2000px) {
+      height: 1.7vw;
+      width: 1.7vw;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
