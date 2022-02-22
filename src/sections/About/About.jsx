@@ -1,19 +1,16 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper';
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
 
-import './About.scss';
-import '../../styles/SwiperStyle.scss';
-import 'swiper/scss';
-import 'swiper/scss/pagination';
+import "./About.scss";
+import "../../styles/SwiperStyle.scss";
+import "swiper/scss";
+import "swiper/scss/pagination";
 
 export default function About() {
   return (
     <section className="about" id="about-scroll">
-      <Swiper 
-       modules={[Navigation]}
-       navigation={true}
-      >
+      <Swiper modules={[Navigation]} navigation={true}>
         <SwiperSlide>
           <div className="about-title">
             <h2> MIS SERVICIOS </h2>
@@ -21,9 +18,7 @@ export default function About() {
             <h3> Comercio Virtual </h3>
             <h3> Soluciones informáticas </h3>
             <h3> Mantenimiento de Hardware </h3>
-            <label>
-              PRINCIPALES TECNOLOGÍAS{'>'}
-            </label>
+            <label>PRINCIPALES TECNOLOGÍAS{">"}</label>
           </div>
         </SwiperSlide>
 
@@ -41,5 +36,5 @@ export default function About() {
         </SwiperSlide>
       </Swiper>
     </section>
-  )
+  );
 }
