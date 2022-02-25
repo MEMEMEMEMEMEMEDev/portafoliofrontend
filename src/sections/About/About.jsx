@@ -14,7 +14,7 @@ export default function About() {
         <SwiperSlide>
           <div className="about-title">
             <h2> MIS SERVICIOS </h2>
-            <h3> Desarrollador Web </h3>
+            <h3> Desarrollador JAVASCRIPT </h3>
             <h3> Comercio Virtual </h3>
             <h3> Soluciones informáticas </h3>
             <h3> Mantenimiento de Hardware </h3>
