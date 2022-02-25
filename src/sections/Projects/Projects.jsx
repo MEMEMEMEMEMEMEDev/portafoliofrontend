@@ -24,7 +24,7 @@ export default function Projects() {
           <Project
             urlImg={ClimaImg}
             name="Clima App"
-            description="Aplicación de clima con React(CRA) y sass, que permite obtener la información de una ciudad y su clima."
+            description="Aplicacion de React para obtener la informacion del clima de una ciudad, con una API de clima y una API de geolocalizacion, estilada con SCSS tomando prestado un par de elementos de MaterialUI."
             githubproyect="https://github.com/MEMEMEMEMEMEMEDev/climaApp/tree/main"
             projectlink="https://clima-app-swart.vercel.app/"
           />
@@ -34,8 +34,7 @@ export default function Projects() {
           <Project
             urlImg={BlogImg}
             name="BLOG"
-            description="Proyecto de blog personal creado con NextJS y Styled-components principalmente, con el cual se pueden crear posts con archivos markdown de una forma sencilla. Actualmente sólo contiene textos de prueba. 
-           "
+            description="Blog personal creado con NextJS, trabajando con paginación dinámica y markdown para crear posts, estilada con styled-components, aún contiene sólo textos de prueba, espero poder ir llenandolo con contenido a lo largo de mi carrera."
             githubproyect="https://github.com/Kazuo-dev/MyBlog"
             projectlink="https://my-blog-jmeno97zr-kazuo-dev.vercel.app/"
           />
@@ -45,8 +44,7 @@ export default function Projects() {
           <Project
             urlImg={NoteImg}
             name="Note APP"
-            description="Aplicación de notas con React(CRA) y sass, que permite crear notas y guardarlas en una base de datos, aún está en desarrollo pero es una version estable.
-           "
+            description="Aplicación en React para crear notas, el sistema de usuarios y el de autenticacion están implementados con firebase, y estos son mis comienzos con REDUX que es la principal razón de esta aplicación. Aún no decido que rumbo tomará, sigue en desarrollo pero es una versión estable que demuestra el conocimiento de React, Redux, firebase y SASS."
             githubproyect="https://github.com/MEMEMEMEMEMEMEDev/notesApp"
             projectlink="https://notes-app-sigma-fawn.vercel.app/"
           />
