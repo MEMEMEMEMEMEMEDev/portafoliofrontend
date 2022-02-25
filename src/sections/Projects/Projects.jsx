@@ -44,7 +44,7 @@ export default function Projects() {
           <Project
             urlImg={NoteImg}
             name="Note APP"
-            description="Aplicación en React para crear notas, el sistema de usuarios y el de autenticacion están implementados con firebase, y estos son mis comienzos con REDUX que es la principal razón de esta aplicación. Aún no decido que rumbo tomará, sigue en desarrollo pero es una versión estable que demuestra el conocimiento de React, Redux, firebase y SASS."
+            description="Aplicación en React para crear notas, el sistema de usuarios y el de autenticacion están implementados con firebase, la principal razón de esta aplicación era implementar REDUX. Aún no decido que rumbo tomará, sigue en desarrollo pero es una versión estable que demuestra el conocimiento de React, Redux, firebase y SASS."
             githubproyect="https://github.com/MEMEMEMEMEMEMEDev/notesApp"
             projectlink="https://notes-app-sigma-fawn.vercel.app/"
           />
