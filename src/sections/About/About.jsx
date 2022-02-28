@@ -18,12 +18,12 @@ export default function About() {
             <h3> Comercio Virtual </h3>
             <h3> Soluciones informáticas </h3>
             <h3> Mantenimiento de Hardware </h3>
-            <label>PRINCIPALES TECNOLOGÍAS{">"}</label>
-          </div>
+x          </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="about-tech">
+            <label>PRINCIPALES TECNOLOGÍAS </label>
             <h3> REACT </h3>
             <h3> NEXT JS </h3>
             <h3> NODE/EXPRESS/MONGODB </h3>
