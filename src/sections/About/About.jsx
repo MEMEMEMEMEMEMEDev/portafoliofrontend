@@ -18,7 +18,7 @@ export default function About() {
             <h3> Comercio Virtual </h3>
             <h3> Soluciones informáticas </h3>
             <h3> Mantenimiento de Hardware </h3>
-x          </div>
+          </div>
         </SwiperSlide>
 
         <SwiperSlide>
