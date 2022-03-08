@@ -28,7 +28,6 @@ export default function About() {
             <h3> NEXT JS </h3>
             <h3> NODE/EXPRESS/MONGODB </h3>
             <h3> FIREBASE </h3>
-            <h3> AUTH </h3>
             <h3> GIT </h3>
             <h3> SASS/MUI/CSS</h3>
             <h3>STYLED-COMPONENTS</h3>

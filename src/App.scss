@@ -2,12 +2,12 @@
 body {
   &:before {
     content: "";
-    background: url('./assets/images/jpg/yellow-coffe3.webp');
+    background: url('./assets/images/jpg/city.jpg');
     background-position: center;
     background-size: cover;
     background-position-y: 55%;
     height: 100vh;
-    filter: blur(3px);
+    filter: blur(.5px) grayscale(70%) brightness(40%);
     left: 0;
     position: fixed;
     overflow: hidden;

@@ -77,6 +77,7 @@ export default function Contact() {
               error={formik.touched.name && Boolean(formik.errors.name)}
               helperText={formik.touched.name && formik.errors.name}
               inputProps={{ maxLength: 70 }}
+              autoComplete="off"
             />
 
             <TextField
@@ -90,6 +91,7 @@ export default function Contact() {
               error={formik.touched.name && Boolean(formik.errors.email)}
               helperText={formik.touched.name && formik.errors.email}
               inputProps={{ maxLength: 50 }}
+              autoComplete="off"
             />
 
             <TextField
@@ -103,6 +105,7 @@ export default function Contact() {
               error={formik.touched.name && Boolean(formik.errors.message)}
               multiline
               inputProps={{ maxLength: 800 }}
+              autoComplete="off"
             />
 
             <Button type="submit" variant="text" size="medium">
