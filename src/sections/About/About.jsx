@@ -14,16 +14,16 @@ export default function About() {
         <SwiperSlide>
           <div className="about-title">
             <h2> MIS SERVICIOS </h2>
-            <h3> Desarrollador JAVASCRIPT </h3>
-            <h3> Comercio Virtual </h3>
-            <h3> Soluciones informáticas </h3>
+            <h3> Desarrollador </h3>
+            <h3> Ecommerce </h3>
             <h3> Mantenimiento de Hardware </h3>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="about-tech">
-            <label>PRINCIPALES TECNOLOGÍAS </label>
+            <label>TECNOLOGÍAS DE DESARROLLO </label>
+            <h3> JAVASCRIPT </h3>
             <h3> REACT </h3>
             <h3> NEXT JS </h3>
             <h3> NODE/EXPRESS/MONGODB </h3>

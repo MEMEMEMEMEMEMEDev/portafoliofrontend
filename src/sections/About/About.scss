@@ -1,7 +1,7 @@
 
 .about {
   align-items: center;
-  background-color: #da5a6f;
+  background-color: #333333;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -22,7 +22,7 @@
     h2 {
       color: rgb(255, 255, 255);
       font-size: 1.5rem;
-      font-weight: 300;
+      font-weight: 400;
 
       @media (max-width: 768px) {
         font-size: 1.3rem;
@@ -35,9 +35,9 @@
     }
 
     h3 {
-      font-weight: 500;
+      font-weight: 300;
       font-size: 1.5rem;
-      color: rgba(255, 255, 255);
+      color: rgb(127, 189, 218);
 
       @media (max-width: 768px) {
         font-size: 1.2rem;
@@ -58,9 +58,9 @@
     align-items: center;
 
     label {
-      color: rgb(255, 255, 255);
+      color: rgb(127, 189, 218);
       font-size: 1.5rem;
-      font-weight: 300;
+      font-weight: 400;
       transition: .3s;
       margin-top: 2vw;
       margin-bottom: 2vw;
@@ -80,7 +80,7 @@
     }
 
     h3 {
-      font-weight: 500;
+      font-weight: 300;
       font-size: 1.5rem;
       color: rgba(255, 255, 255);
       white-space: nowrap;
