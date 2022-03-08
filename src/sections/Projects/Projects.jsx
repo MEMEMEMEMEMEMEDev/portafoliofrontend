@@ -65,19 +65,21 @@ const PrincipalHome = () => {
 const Project = ({ urlImg, name, description, githubproyect, projectlink }) => {
   return (
     <div className="projects-project">
-      <div className="projects-project__img">
-        <img src={urlImg} alt="project" />
-      </div>
-      <div className="projects-project__description">
-        <h2> {name} </h2>
-        <p> {description} </p>
-        <div className="projects-project__description-links">
-          <a href={githubproyect} target="_blank" rel="noopener noreferrer">
-            <img src={Github} alt="github" />
-          </a>
-          <a href={projectlink} target="_blank" rel="noopener noreferrer">
-            <img src={HomeImg} alt="visit" />
-          </a>
+      <div className="projects-project__container">
+        <div className="projects-project__container-img">
+          <img src={urlImg} alt="project" />
+        </div>
+        <div className="projects-project__container-description">
+          <h2> {name} </h2>
+          <p> {description} </p>
+          <div className="projects-project__container-description__links">
+            <a href={githubproyect} target="_blank" rel="noopener noreferrer">
+              <img src={Github} alt="github" />
+            </a>
+            <a href={projectlink} target="_blank" rel="noopener noreferrer">
+              <img src={HomeImg} alt="visit" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
