@@ -1,5 +1,6 @@
 .contact {
   display: grid;
+  background-color: rgba(0, 0, 0, 0.6);
   grid-template-columns: 50% 50%;
   height: 100vh;
   width: 100%;
@@ -47,8 +48,9 @@
   }
 
   &-image {
-    background-color: rgb(0, 0, 0, .6);
-    opacity: .96;
+    background: url('../../assets/images/jpg/astro.jpg');
+    background-size: cover;
+    background-position: center;
     height: 100%;
     width: 100%;
 
