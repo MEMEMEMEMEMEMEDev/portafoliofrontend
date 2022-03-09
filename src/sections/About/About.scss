@@ -1,7 +1,7 @@
 
 .about {
   align-items: center;
-  background-color: rgba(56, 56, 56, 0.95);
+  background-color: #1f1d1c;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -19,8 +19,8 @@
     width: 100%;
 
     h2 {
-      color:#8bdff8;
-      font-size: 2rem;
+      color:#e6d32c;
+      font-size: 1.5rem;
       font-weight: 300;
 
       @media (max-width: 768px) {
@@ -65,7 +65,7 @@
     align-items: center;
 
     label {
-      color:#8bdff8;
+      color:#e6d32c;
       font-size: 1.5rem;
       font-weight: 300;
       transition: .3s;

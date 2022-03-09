@@ -48,9 +48,7 @@
   }
 
   &-image {
-    background: url('../../assets/images/jpg/astro.webp');
-    background-size: cover;
-    background-position: center;
+    background-color: black;
     filter: brightness(20%) blur(1px);
     height: 100%;
     width: 100%;
