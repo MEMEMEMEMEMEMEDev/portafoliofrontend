@@ -24,7 +24,7 @@ export default function Projects() {
           <Project
             urlImg={ClimaImg}
             name="Clima App"
-            description="Aplicacion de React para obtener la informacion del clima de una ciudad, con una API de clima y una API de geolocalizacion, estilada con SCSS tomando prestado un par de elementos de MaterialUI."
+            description="Aplicación en React con el fin de mostrar la información del clima de una ciudad, consume la API de OpenWeatherMap y la API de Google Geocoding para funcionar. Estilada con SASS tomando un par de elementos de Material UI."
             githubproyect="https://github.com/MEMEMEMEMEMEMEDev/climaApp/tree/main"
             projectlink="https://clima-app-swart.vercel.app/"
           />
@@ -34,7 +34,7 @@ export default function Projects() {
           <Project
             urlImg={BlogImg}
             name="BLOG"
-            description="Blog personal creado con NextJS, trabajando con paginación dinámica y markdown para crear posts, estilada con styled-components, aún contiene sólo textos de prueba, espero poder ir llenandolo con contenido a lo largo de mi carrera."
+            description="Blog creado con NextJS y estilado con Styled Components. Se utiliza Mdx para crear los artículos del blog. Planeo hacerlo mi propio blog, pero aún me faltan ideas para crear contenido, por lo que lo dejé como una muestra de lo que podría ser, aunque le debo algo de amor a los estilos."
             githubproyect="https://github.com/Kazuo-dev/MyBlog"
             projectlink="https://my-blog-beige-two.vercel.app/"
           />
@@ -44,7 +44,7 @@ export default function Projects() {
           <Project
             urlImg={NoteImg}
             name="Note APP"
-            description="Aplicación en React para crear notas, el sistema de usuarios y el de autenticacion están implementados con firebase, la principal razón de esta aplicación era implementar REDUX. Aún no decido que rumbo tomará, sigue en desarrollo pero es una versión estable que demuestra el conocimiento de React, Redux, firebase y SASS."
+            description="Aplicación en React para crear notas, el sistema de usuarios y el de autenticacion están implementados con firebase, la principal razón de esta aplicación era implementar REDUX. Aún no decido que rumbo tomará, sigue en desarrollo pero es una versión estable que demuestra el conocimiento de React, Redux, firebase y SASS. (Actualmente migrando proyecto a React Native)(9 de Marzo)."
             githubproyect="https://github.com/MEMEMEMEMEMEMEDev/notesApp"
             projectlink="https://notes-app-sigma-fawn.vercel.app/"
           />
