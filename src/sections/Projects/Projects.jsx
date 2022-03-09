@@ -8,9 +8,9 @@ import "./Projects.scss";
 import "swiper/scss";
 import HomeImg from "../../assets/images/png/home.png";
 import Github from "../../assets/images/png/github.png";
-import BlogImg from "../../assets/images/jpg/myblog.webp";
-import ClimaImg from "../../assets/images/jpg/climateApp.png";
-import NoteImg from "../../assets/images/png/a.png";
+import BlogImg from "../../assets/images/projects/blog.webp";
+import ClimaImg from "../../assets/images/projects/climate.webp";
+import NoteImg from "../../assets/images/projects/note.webp";
 
 export default function Projects() {
   return (
