@@ -36,7 +36,7 @@ export default function Projects() {
             name="BLOG"
             description="Blog personal creado con NextJS, trabajando con paginación dinámica y markdown para crear posts, estilada con styled-components, aún contiene sólo textos de prueba, espero poder ir llenandolo con contenido a lo largo de mi carrera."
             githubproyect="https://github.com/Kazuo-dev/MyBlog"
-            projectlink="https://my-blog-jmeno97zr-kazuo-dev.vercel.app/"
+            projectlink="https://my-blog-beige-two.vercel.app/"
           />
         </SwiperSlide>
 
