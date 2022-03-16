@@ -25,7 +25,7 @@ export default function Projects() {
             urlImg={ClimaImg}
             name="Clima App"
             description="Aplicación en React con el fin de mostrar la información del clima de una ciudad, consume la API de OpenWeatherMap y la API de Google Geocoding para funcionar. Estilada con SASS tomando un par de elementos de Material UI.
-            SIN FUNCIONAMIENTO ACTUALMENTE :("
+            (Otra vez funcionando!)"
             githubproyect="https://github.com/MEMEMEMEMEMEMEDev/climaApp/tree/main"
             projectlink="https://clima-app-swart.vercel.app/"
           />
