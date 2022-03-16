@@ -8,9 +8,9 @@ import * as Yup from "yup";
 
 import "./Contact.scss";
 import "./MuiStyles.scss";
-import GithubImg from "../../assets/images/png/github.png";
-import LinkedinImg from "../../assets/images/png/linkedin.png";
-import TwitterImg from "../../assets/images/png/twitter.png";
+import GithubImg from "../../assets/images/more/github.png";
+import LinkedinImg from "../../assets/images/more/linkedin.png";
+import TwitterImg from "../../assets/images/more/twitter.png";
 
 export default function Contact() {
   const [alert, setAlert] = useState({

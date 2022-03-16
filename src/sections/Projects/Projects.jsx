@@ -6,8 +6,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/scss/navigation";
 import "./Projects.scss";
 import "swiper/scss";
-import HomeImg from "../../assets/images/png/home.png";
-import Github from "../../assets/images/png/github.png";
+import HomeImg from "../../assets/images/more/home.png";
+import Github from "../../assets/images/more/github.png";
 import BlogImg from "../../assets/images/projects/blog.webp";
 import ClimaImg from "../../assets/images/projects/climate.webp";
 import NoteImg from "../../assets/images/projects/note.webp";
@@ -24,7 +24,8 @@ export default function Projects() {
           <Project
             urlImg={ClimaImg}
             name="Clima App"
-            description="Aplicación en React con el fin de mostrar la información del clima de una ciudad, consume la API de OpenWeatherMap y la API de Google Geocoding para funcionar. Estilada con SASS tomando un par de elementos de Material UI."
+            description="Aplicación en React con el fin de mostrar la información del clima de una ciudad, consume la API de OpenWeatherMap y la API de Google Geocoding para funcionar. Estilada con SASS tomando un par de elementos de Material UI.
+            SIN FUNCIONAMIENTO ACTUALMENTE :("
             githubproyect="https://github.com/MEMEMEMEMEMEMEDev/climaApp/tree/main"
             projectlink="https://clima-app-swart.vercel.app/"
           />
